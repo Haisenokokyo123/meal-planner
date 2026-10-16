@@ -1,0 +1,1 @@
+var e=[`Monday`,`Tuesday`,`Wednesday`,`Thursday`,`Friday`,`Saturday`,`Sunday`],t=e=>new Intl.NumberFormat(`en-PH`,{style:`currency`,currency:`PHP`,maximumFractionDigits:e%100==0?0:2}).format(e/100);export{t as n,e as t};

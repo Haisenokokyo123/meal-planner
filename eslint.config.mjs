@@ -1,0 +1,4 @@
+import js from "@eslint/js";
+import tseslint from "typescript-eslint";
+import hooks from "eslint-plugin-react-hooks";
+export default tseslint.config({ignores:["dist/**","node_modules/**",".next/**"]},js.configs.recommended,...tseslint.configs.recommended,{files:["**/*.{ts,tsx}"],plugins:{"react-hooks":hooks},languageOptions:{globals:{window:"readonly",document:"readonly",fetch:"readonly",console:"readonly",URLSearchParams:"readonly",RequestInit:"readonly",Response:"readonly",React:"readonly",FormData:"readonly",HTMLElement:"readonly",HTMLDialogElement:"readonly",HTMLInputElement:"readonly",HTMLFormElement:"readonly",TextEncoder:"readonly",crypto:"readonly",setTimeout:"readonly",clearTimeout:"readonly"}},rules:{"react-hooks/rules-of-hooks":"error","react-hooks/exhaustive-deps":"warn","@typescript-eslint/no-unused-vars":["warn",{argsIgnorePattern:"^_",varsIgnorePattern:"^_"}],"@typescript-eslint/no-explicit-any":"error"}});

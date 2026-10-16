@@ -1,0 +1,6 @@
+Options -Indexes
+DirectoryIndex index.php
+RewriteEngine On
+# Every request passes through the allowlisting router. Never expose config, source, SQL or reset messages.
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^ index.php [QSA,L]

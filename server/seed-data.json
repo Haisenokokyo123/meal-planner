@@ -1,0 +1,999 @@
+{
+  "meals": [
+    {
+      "id": "chicken-inasal",
+      "slug": "chicken-inasal",
+      "name": "Chicken Inasal",
+      "description": "Smoky calamansi chicken, garlic brown rice and crisp cucumber.",
+      "category": "Chicken",
+      "price": 18500,
+      "calories": 530,
+      "protein": 42,
+      "carbs": 55,
+      "fat": 16,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "brown rice",
+        "calamansi",
+        "garlic",
+        "cucumber"
+      ],
+      "allergens": [],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-inasal.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-adobo",
+      "slug": "chicken-adobo",
+      "name": "Lean Chicken Adobo",
+      "description": "Tender chicken in soy-vinegar adobo with brown rice and greens.",
+      "category": "Chicken",
+      "price": 17500,
+      "calories": 510,
+      "protein": 39,
+      "carbs": 54,
+      "fat": 15,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "brown rice",
+        "soy sauce",
+        "vinegar",
+        "garlic",
+        "bok choy"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-adobo.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "grilled-bangus",
+      "slug": "grilled-bangus",
+      "name": "Grilled Bangus Bowl",
+      "description": "Calamansi-grilled milkfish, red rice and tomato ensalada.",
+      "category": "Fish",
+      "price": 19500,
+      "calories": 550,
+      "protein": 38,
+      "carbs": 54,
+      "fat": 20,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "milkfish",
+        "red rice",
+        "tomato",
+        "onion",
+        "calamansi"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free",
+        "pescatarian"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/grilled-bangus.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "tofu-sisig",
+      "slug": "tofu-sisig",
+      "name": "Tofu Sisig Bowl",
+      "description": "Golden tofu, mushrooms and peppers with bright calamansi rice.",
+      "category": "Plant-based",
+      "price": 15500,
+      "calories": 450,
+      "protein": 23,
+      "carbs": 55,
+      "fat": 16,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tofu",
+        "mushrooms",
+        "bell pepper",
+        "brown rice",
+        "soy sauce",
+        "calamansi"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/tofu-sisig.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-tinola",
+      "slug": "chicken-tinola",
+      "name": "Chicken Tinola",
+      "description": "Ginger chicken broth, green papaya, malunggay and a side of rice.",
+      "category": "Chicken",
+      "price": 17500,
+      "calories": 440,
+      "protein": 37,
+      "carbs": 48,
+      "fat": 12,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "ginger",
+        "green papaya",
+        "malunggay",
+        "brown rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-tinola.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "sinigang-isda",
+      "slug": "sinigang-isda",
+      "name": "Sinigang na Isda",
+      "description": "Tamarind fish broth with kangkong, radish and steamed rice.",
+      "category": "Fish",
+      "price": 19000,
+      "calories": 430,
+      "protein": 34,
+      "carbs": 48,
+      "fat": 11,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tilapia",
+        "tamarind",
+        "kangkong",
+        "radish",
+        "rice"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "pescatarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/sinigang-isda.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "beef-broccoli",
+      "slug": "beef-broccoli",
+      "name": "Beef & Broccoli",
+      "description": "Lean beef and broccoli in a light garlic-soy glaze with rice.",
+      "category": "Beef",
+      "price": 21500,
+      "calories": 550,
+      "protein": 40,
+      "carbs": 54,
+      "fat": 19,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "beef",
+        "broccoli",
+        "soy sauce",
+        "garlic",
+        "brown rice"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/beef-broccoli.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "pinakbet",
+      "slug": "pinakbet",
+      "name": "Rainbow Pinakbet",
+      "description": "Squash, eggplant, okra and green beans with a savory mushroom sauce.",
+      "category": "Plant-based",
+      "price": 14500,
+      "calories": 395,
+      "protein": 12,
+      "carbs": 65,
+      "fat": 10,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "squash",
+        "eggplant",
+        "okra",
+        "green beans",
+        "mushroom",
+        "brown rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/pinakbet.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "calamansi-chicken",
+      "slug": "calamansi-chicken",
+      "name": "Calamansi Chicken Bowl",
+      "description": "Citrus-grilled chicken with roasted squash and red rice.",
+      "category": "Chicken",
+      "price": 18000,
+      "calories": 490,
+      "protein": 40,
+      "carbs": 51,
+      "fat": 13,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "calamansi",
+        "squash",
+        "red rice",
+        "garlic"
+      ],
+      "allergens": [],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-inasal.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-afritada",
+      "slug": "chicken-afritada",
+      "name": "Chicken Afritada",
+      "description": "Tomato-braised chicken with carrots, potatoes and steamed rice.",
+      "category": "Chicken",
+      "price": 18000,
+      "calories": 520,
+      "protein": 35,
+      "carbs": 62,
+      "fat": 15,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "tomato",
+        "carrot",
+        "potato",
+        "rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-adobo.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-ginger-rice",
+      "slug": "chicken-ginger-rice",
+      "name": "Chicken Ginger Rice",
+      "description": "Comforting ginger chicken with bok choy and fragrant rice.",
+      "category": "Chicken",
+      "price": 16500,
+      "calories": 470,
+      "protein": 33,
+      "carbs": 55,
+      "fat": 12,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "ginger",
+        "bok choy",
+        "rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/chicken-tinola.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "herbed-tilapia",
+      "slug": "herbed-tilapia",
+      "name": "Herbed Tilapia",
+      "description": "Grilled tilapia with tomato salad, herbs and brown rice.",
+      "category": "Fish",
+      "price": 18500,
+      "calories": 460,
+      "protein": 36,
+      "carbs": 49,
+      "fat": 14,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tilapia",
+        "tomato",
+        "parsley",
+        "brown rice",
+        "calamansi"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "pescatarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/grilled-bangus.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "ginger-fish-soup",
+      "slug": "ginger-fish-soup",
+      "name": "Ginger Fish Soup",
+      "description": "Light ginger fish soup with pechay and steamed rice.",
+      "category": "Fish",
+      "price": 18000,
+      "calories": 410,
+      "protein": 32,
+      "carbs": 46,
+      "fat": 10,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tilapia",
+        "ginger",
+        "pechay",
+        "rice"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "pescatarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/sinigang-isda.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "mushroom-tofu-adobo",
+      "slug": "mushroom-tofu-adobo",
+      "name": "Mushroom Tofu Adobo",
+      "description": "Soy-vinegar tofu and mushrooms over nutty brown rice.",
+      "category": "Plant-based",
+      "price": 15500,
+      "calories": 430,
+      "protein": 22,
+      "carbs": 54,
+      "fat": 14,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tofu",
+        "mushroom",
+        "soy sauce",
+        "vinegar",
+        "brown rice"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/tofu-sisig.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "coconut-vegetables",
+      "slug": "coconut-vegetables",
+      "name": "Coconut Vegetable Bowl",
+      "description": "Creamy coconut squash and green beans with red rice.",
+      "category": "Plant-based",
+      "price": 15000,
+      "calories": 470,
+      "protein": 12,
+      "carbs": 61,
+      "fat": 20,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "coconut milk",
+        "squash",
+        "green beans",
+        "red rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/pinakbet.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "ginisang-monggo",
+      "slug": "ginisang-monggo",
+      "name": "Ginisang Monggo",
+      "description": "Slow-simmered mung beans, malunggay and tomatoes with rice.",
+      "category": "Plant-based",
+      "price": 14000,
+      "calories": 420,
+      "protein": 19,
+      "carbs": 67,
+      "fat": 8,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "mung beans",
+        "malunggay",
+        "tomato",
+        "garlic",
+        "rice"
+      ],
+      "allergens": [],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/pinakbet.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "beef-bistek",
+      "slug": "beef-bistek",
+      "name": "Beef Bistek Bowl",
+      "description": "Lean beef with calamansi, onions and garlic brown rice.",
+      "category": "Beef",
+      "price": 21000,
+      "calories": 540,
+      "protein": 39,
+      "carbs": 53,
+      "fat": 19,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "beef",
+        "onion",
+        "soy sauce",
+        "calamansi",
+        "brown rice"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/beef-broccoli.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-breakfast",
+      "slug": "chicken-breakfast",
+      "name": "Chicken Breakfast Bowl",
+      "description": "Grilled chicken, garlic rice and a fresh cucumber-tomato salad.",
+      "category": "Breakfast",
+      "price": 15500,
+      "calories": 440,
+      "protein": 32,
+      "carbs": 49,
+      "fat": 13,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "rice",
+        "garlic",
+        "cucumber",
+        "tomato"
+      ],
+      "allergens": [],
+      "tags": [
+        "high-protein",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch"
+      ],
+      "image": "/images/chicken-inasal.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "tofu-breakfast",
+      "slug": "tofu-breakfast",
+      "name": "Tofu Breakfast Scramble",
+      "description": "Turmeric tofu, tomatoes and greens with fragrant rice.",
+      "category": "Breakfast",
+      "price": 13500,
+      "calories": 380,
+      "protein": 21,
+      "carbs": 47,
+      "fat": 12,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "tofu",
+        "turmeric",
+        "tomato",
+        "spinach",
+        "rice"
+      ],
+      "allergens": [
+        "soy"
+      ],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch"
+      ],
+      "image": "/images/tofu-sisig.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "bangus-breakfast",
+      "slug": "bangus-breakfast",
+      "name": "Bangus Breakfast Plate",
+      "description": "Grilled milkfish, garlic rice and sliced tomatoes.",
+      "category": "Breakfast",
+      "price": 16500,
+      "calories": 460,
+      "protein": 32,
+      "carbs": 47,
+      "fat": 17,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "milkfish",
+        "garlic",
+        "rice",
+        "tomato"
+      ],
+      "allergens": [
+        "fish"
+      ],
+      "tags": [
+        "pescatarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch"
+      ],
+      "image": "/images/grilled-bangus.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-lugaw",
+      "slug": "chicken-lugaw",
+      "name": "Malunggay Chicken Lugaw",
+      "description": "Warm ginger rice porridge with chicken and malunggay.",
+      "category": "Breakfast",
+      "price": 12500,
+      "calories": 350,
+      "protein": 26,
+      "carbs": 45,
+      "fat": 7,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "rice",
+        "ginger",
+        "malunggay"
+      ],
+      "allergens": [],
+      "tags": [
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch"
+      ],
+      "image": "/images/chicken-tinola.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "vegetable-garlic-rice",
+      "slug": "vegetable-garlic-rice",
+      "name": "Vegetable Garlic Rice",
+      "description": "Garlic rice with squash, green beans, carrots and toasted garlic.",
+      "category": "Breakfast",
+      "price": 12000,
+      "calories": 380,
+      "protein": 10,
+      "carbs": 62,
+      "fat": 10,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "rice",
+        "squash",
+        "green beans",
+        "carrot",
+        "garlic"
+      ],
+      "allergens": [],
+      "tags": [
+        "plant-based",
+        "vegan",
+        "vegetarian",
+        "dairy-free",
+        "gluten-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/pinakbet.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "chicken-adobo-flakes",
+      "slug": "chicken-adobo-flakes",
+      "name": "Chicken Adobo Flakes",
+      "description": "Tender shredded chicken adobo with garlic rice and cucumber.",
+      "category": "Breakfast",
+      "price": 15000,
+      "calories": 420,
+      "protein": 31,
+      "carbs": 48,
+      "fat": 12,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "chicken",
+        "soy sauce",
+        "vinegar",
+        "garlic",
+        "rice",
+        "cucumber"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free"
+      ],
+      "slots": [
+        "breakfast",
+        "lunch"
+      ],
+      "image": "/images/chicken-adobo.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    },
+    {
+      "id": "pepper-beef-rice",
+      "slug": "pepper-beef-rice",
+      "name": "Pepper Beef Rice",
+      "description": "Peppery beef strips with green vegetables and garlic rice.",
+      "category": "Beef",
+      "price": 20000,
+      "calories": 530,
+      "protein": 38,
+      "carbs": 55,
+      "fat": 18,
+      "servingSize": "1 prepared bowl · approximately 350–450 g",
+      "ingredients": [
+        "beef",
+        "bell pepper",
+        "broccoli",
+        "soy sauce",
+        "rice"
+      ],
+      "allergens": [
+        "soy",
+        "wheat"
+      ],
+      "tags": [
+        "high-protein",
+        "dairy-free"
+      ],
+      "slots": [
+        "lunch",
+        "dinner"
+      ],
+      "image": "/images/beef-broccoli.webp",
+      "available": true,
+      "capacity": 100,
+      "portions": [
+        1,
+        1.5
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "id": "starter",
+      "name": "Starter",
+      "mealCount": 5,
+      "price": 60000,
+      "description": "Five delicious reasons to take lunch off your list.",
+      "active": true
+    },
+    {
+      "id": "balanced",
+      "name": "Balanced",
+      "mealCount": 10,
+      "price": 120000,
+      "description": "Lunch and dinner, sorted for your working week.",
+      "active": true
+    },
+    {
+      "id": "full-plate",
+      "name": "Full Plate",
+      "mealCount": 15,
+      "price": 180000,
+      "description": "A full week of breakfast, lunch and dinner.",
+      "active": true
+    },
+    {
+      "id": "custom",
+      "name": "Your own rhythm",
+      "mealCount": 0,
+      "price": 0,
+      "description": "Choose your days and meals. Pay for what is on your plan.",
+      "active": true
+    }
+  ],
+  "zones": [
+    {
+      "id": "makati",
+      "name": "Makati",
+      "fee": 5000,
+      "active": true
+    },
+    {
+      "id": "bgc",
+      "name": "BGC / Taguig",
+      "fee": 6000,
+      "active": true
+    },
+    {
+      "id": "pasig",
+      "name": "Pasig",
+      "fee": 6500,
+      "active": true
+    },
+    {
+      "id": "quezon-city",
+      "name": "Quezon City",
+      "fee": 7500,
+      "active": true
+    },
+    {
+      "id": "manila",
+      "name": "Manila",
+      "fee": 6500,
+      "active": true
+    }
+  ]
+}

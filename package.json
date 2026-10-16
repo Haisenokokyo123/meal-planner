@@ -1,0 +1,49 @@
+{
+  "name": "sakto-meals",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "start": "php -S 127.0.0.1:3100 index.php",
+    "lint": "eslint src tests e2e",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:php": "php server/tests/planner.php",
+    "test:e2e": "playwright test",
+    "setup": "php scripts/setup.php --admin"
+  },
+  "dependencies": {
+    "@fontsource/dm-sans": "^5.2.8",
+    "@fontsource/plus-jakarta-sans": "^5.2.8",
+    "gsap": "^3.14.2",
+    "lucide-react": "^0.577.0",
+    "motion": "^12.35.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.7.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@playwright/test": "^1.58.2",
+    "@tailwindcss/postcss": "^4.2.1",
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^9.39.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "tailwindcss": "^4.2.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.71.2",
+    "vite": "^8.3.4",
+    "vitest": "^4.0.18"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  }
+}
