@@ -17,7 +17,19 @@ For a custom XAMPP installation path, run this command from the project folder u
 C:\xampp\php\php.exe scripts\setup.php --admin
 ```
 
-**Optional phpMyAdmin import:** create/select a UTF-8 database named `sakto_meals`, then import `server/schema.sql` using the Import tab. Run the setup command afterward to seed the catalog and create the administrator. Both approaches use the same local MySQL database; phpMyAdmin is its management interface.
+### Set up entirely through phpMyAdmin
+
+You can use this instead of `setup.cmd`:
+
+1. Start Apache and MySQL in XAMPP, then open `http://localhost/phpmyadmin`.
+2. Click the **SQL** tab at the top, as shown on the server overview.
+3. Open the repository's root **`database.sql`** file in a text editor. Copy its entire contents into the SQL box, then click **Go**. Alternatively, select **Import**, choose `database.sql`, and click **Go**.
+4. The file creates/selects `sakto_meals`, creates all tables, and adds 24 sample meals, packages, delivery areas, and settings. Refresh the left sidebar to see the database. You do not need to import `schema.sql` separately or run the setup script for customer use.
+5. Open `http://localhost/meal-planner` and register your account. With the default local XAMPP database credentials, the sample configuration already works. If your connection differs, copy `config.example.php` to `config.local.php` and edit that PHP file in your project folder. PHP configuration code does **not** go in phpMyAdmin's SQL box.
+
+To make your registered account an administrator without running setup: in phpMyAdmin select `sakto_meals` → `users` → **Browse**, find your own email, click **Edit**, change only `role` from `CUSTOMER` to `ADMIN`, and save with **Go**. Sign out and back in to the application. This uses your own registered password; no shared administrator password is included in the SQL file.
+
+`server/schema.sql` is the tables-only source. `database.sql` is the complete import, generated from that schema and the seed catalog with `php scripts/export-sql.php`. Reimporting preserves existing records; it does not reset your data.
 
 No Docker, cloud database, payment account, SMTP account, Composer install, or Node server is required to run the delivered application. Food images and fonts are local assets.
 
