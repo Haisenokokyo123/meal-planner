@@ -1,7 +1,7 @@
 -- Sakto Meals · MariaDB 10.4+ / MySQL 8.0+ · UTF-8 / InnoDB.
 -- Import into a database named sakto_meals in phpMyAdmin, then run scripts/setup.php.
 -- Non-destructive: existing tables/data are preserved. All timestamps stored as UTC.
-SET NAMES utf8mb4;
+SET NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
 SET time_zone = '+00:00';
 CREATE TABLE IF NOT EXISTS users (
   id VARCHAR(100) NOT NULL PRIMARY KEY,

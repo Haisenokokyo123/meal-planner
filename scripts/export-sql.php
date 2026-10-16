@@ -10,8 +10,9 @@ function sqlValue(mixed $value): string {
     if (is_bool($value)) return $value ? '1' : '0';
     if (is_int($value) || is_float($value)) return (string)$value;
     if ($value === null) return 'NULL';
-    // Hex literals avoid SQL-mode-dependent backslash escaping.
-    return "CONVERT(X'".bin2hex((string)$value)."' USING utf8mb4)";
+    // Hex literals avoid SQL-mode-dependent backslash escaping. Explicit
+    // collation prevents MySQL/XAMPP defaults from conflicting with table keys.
+    return "CONVERT(X'".bin2hex((string)$value)."' USING utf8mb4) COLLATE utf8mb4_unicode_ci";
 }
 function insertMissing(string $table, array $row, string $key = 'id'): string {
     $columns = implode(',', array_map(fn($column) => '`'.$column.'`', array_keys($row)));
